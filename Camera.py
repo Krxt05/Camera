@@ -4,7 +4,7 @@ import calendar
 from datetime import date, datetime, timedelta
 
 # --- 1. CONFIGURATION ---
-st.set_page_config(page_title="Y2K Camera Rental", page_icon="💖", layout="centered")
+st.set_page_config(page_title="MIWVIE SHOP", page_icon="💖", layout="centered")
 
 # --- 2. DATA LOADING ---
 SHEET_URL = "https://docs.google.com/spreadsheets/d/e/2PACX-1vRjQW_nvu3CR0SZIPcPVs9eVXVDjJPMDUJeZUciKbnqABBzxGF6YJI_Fq09i-oemUur88KkoUoOF47R/pub?gid=0&single=true&output=csv"
@@ -248,3 +248,4 @@ with c_ig:
 with c_fb:
     st.markdown(f'<a href="https://facebook.com/your_shop" target="_blank" class="social-btn btn-fb">FB ทักแชท</a>',
                 unsafe_allow_html=True)
+
