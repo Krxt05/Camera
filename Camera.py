@@ -178,7 +178,7 @@ def render_cal(year, month, booked_list):
 # --- 6. RENDER LAYOUT ---
 
 # Top Bar
-st.markdown('<div class="app-bar"><p class="app-title">✨ Y2K RENTAL ✨</p></div>', unsafe_allow_html=True)
+st.markdown('<div class="app-bar"><p class="app-title">✨ MIWVIE SHOP ✨</p></div>', unsafe_allow_html=True)
 
 # Data Prep
 if not df_bookings.empty and 'Model' in df_bookings.columns:
@@ -248,4 +248,5 @@ with c_ig:
 with c_fb:
     st.markdown(f'<a href="https://facebook.com/your_shop" target="_blank" class="social-btn btn-fb">FB ทักแชท</a>',
                 unsafe_allow_html=True)
+
 
